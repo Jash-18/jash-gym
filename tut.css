@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+  margin: 2px;
+  color: white;
+  background-image: url(https://img.freepik.com/free-photo/young-fitness-man-studio_7502-5005.jpg?w=1380&t=st=1677254638~exp=1677255238~hmac=095c8e0e19655f7b0adcacdab8ed15f87976799b5570c5589185fbc423c64e1c);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.j {
+  vertical-align: middle;
+}
+.navitems {
+  display: inline-block;
+  margin: 0;
+  padding: 2px;
+}
+#left {
+  border: none !important;
+  position: absolute;
+  margin: 19px 22px;
+  font-size: larger;
+  text-align: center;
+}
+
+#mid {
+  position: relative;
+  top: 20px;
+  display: block;
+  margin: auto 285px;
+  width: 40%;
+}
+.miditems li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+#right {
+  display: inline-block;
+
+  position: absolute;
+  top: 30px;
+  right: 2px;
+}
+:root {
+  --cb: rgb(192, 183, 230);
+}
+a:hover {
+  color: var(--cb);
+  text-decoration: underline overline;
+
+}
+#right .btn:hover {
+  color: var(--cb) !important;
+  text-decoration: underline overline;
+
+}
+#right button {
+  margin-right: 10px;
+  background-color: transparent;
+  color: white;
+  padding: 0 30px;
+  border: none;
+  transition: color 0.5s;
+}
+::placeholder {
+  font-size: larger;
+}
+.form {
+  display: block;
+  width: 444px;
+  padding: 40px;
+  border: none;
+  margin: 180px 30px;
+}
+.form input {
+  outline: none;
+  background-color: transparent;
+  display: block;
+  border: 1px solid transparent;
+  padding: 10px 104px;
+  margin: 10px auto;
+  align-self: center;
+  justify-self: center;
+  border-radius: 20px;
+  color: white;
+  transition: border 0.5s;
+}
+#submit {
+  display: block;
+  background-color: transparent;
+  margin: auto;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  padding: 3px 45px;
+  transition:all 0.3s;
+
+}
+#submit:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  
+}
+.form input:hover {
+  border: 1px solid white;
+  transition: border 0.5s;
+}
+button{
+  cursor: pointer;
+}
